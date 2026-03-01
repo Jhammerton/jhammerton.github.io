@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "James Bentley | Software Engineer",
-  description: "Software Engineer specializing in Distributed Systems and Machine Learning Infrastructure",
-  keywords: ["Software Engineer", "Machine Learning", "Distributed Systems", "Cloud Infrastructure"],
+  title: "Jack Hammerton | Data Scientist",
+  description: "Data Scientist specializing in Machine Learning and Data Engineering",
+  keywords: ["Data Scientist", "Machine Learning", "Data Engineering", "Cloud Infrastructure"],
   authors: [{ name: "Jack Hammerton" }],
   openGraph: {
     title: "Jack Hammerton | Data Scientist",
