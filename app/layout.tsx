@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: "James Bentley | Software Engineer",
   description: "Software Engineer specializing in Distributed Systems and Machine Learning Infrastructure",
   keywords: ["Software Engineer", "Machine Learning", "Distributed Systems", "Cloud Infrastructure"],
-  authors: [{ name: "James Bentley" }],
+  authors: [{ name: "Jack Hammerton" }],
   openGraph: {
-    title: "James Bentley | Software Engineer",
-    description: "Software Engineer specializing in Distributed Systems and Machine Learning Infrastructure",
+    title: "Jack Hammerton | Data Scientist",
+    description: "Data Scientist specializing in Machine Learning and Data Engineering",
     type: "website",
     url: "https://jimmybentley.github.io",
     siteName: "James Bentley Portfolio",
