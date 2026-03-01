@@ -24,7 +24,7 @@ export default function Hero() {
           </div>
 
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white tracking-tight">
-            James Bentley
+            Jack Hammerton
           </h1>
 
           <p className="text-xl sm:text-2xl text-blue-400 font-medium">
