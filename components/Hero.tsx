@@ -14,7 +14,7 @@ export default function Hero() {
           <div className="flex justify-center mb-6">
             <div className="relative w-48 h-48 sm:w-60 sm:h-60 rounded-full overflow-hidden border-4 border-blue-500/30 glow">
               <Image
-                src="https://avatars.githubusercontent.com/u/97258445?v=4"
+                src="https://avatars.githubusercontent.com/u/118394956?s=400&u=6bb272fad5c36937554b9bda0d04d9f4fd910822&v=4"
                 alt="James Bentley"
                 fill
                 className="object-cover"
