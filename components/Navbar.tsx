@@ -44,7 +44,7 @@ export default function Navbar() {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="text-xl font-semibold text-white hover:text-blue-400 transition-colors"
           >
-            JB
+            JH
           </button>
 
           {/* Desktop Navigation */}
