@@ -28,17 +28,17 @@ export default function Hero() {
           </h1>
 
           <p className="text-xl sm:text-2xl text-blue-400 font-medium">
-            Software Engineer | Distributed Systems & Machine Learning
+            Data Scientist | Machine Learning & Predictive Modeling
           </p>
 
           <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            Building scalable infrastructure and ML systems. Currently pursuing an M.S. in Computer Science at Georgia Tech,
-            focusing on large-scale distributed training and cloud-native architectures.
+            Aspiring Data Scientist pursuing a B.S. in Business Analytics at Bradley University,
+            preparing for graduate study in Data Science.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 pt-4">
             <a
-              href="https://github.com/jimmybentley"
+              href="https://github.com/Jhammerton"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-medium rounded-lg transition-all duration-200 border border-gray-700"
@@ -50,7 +50,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/jameswbentley/"
+              href="https://www.linkedin.com/in/jack-hammerton-3766a7235/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-medium rounded-lg transition-all duration-200 border border-gray-700"
