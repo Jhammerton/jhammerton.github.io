@@ -5,12 +5,12 @@ export default function ContactSection() {
         <h2 className="text-3xl font-bold text-white mb-8">Get in Touch</h2>
 
         <p className="text-gray-400 text-lg mb-8">
-          Open to roles in distributed systems, ML infrastructure, and applied ML.
+          Open to roles in data science, machine learning, and data engineering.
         </p>
 
         <div className="flex flex-wrap justify-center gap-6">
           <a
-            href="https://www.linkedin.com/in/jameswbentley/"
+            href="https://www.linkedin.com/in/jack-hammerton-3766a7235/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-gray-300 hover:text-blue-400 transition-colors"
@@ -22,7 +22,7 @@ export default function ContactSection() {
           </a>
 
           <a
-            href="https://github.com/jimmybentley"
+            href="https://github.com/Jhammerton"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-gray-300 hover:text-blue-400 transition-colors"
@@ -40,7 +40,7 @@ export default function ContactSection() {
 
         <div className="mt-16 pt-8 border-t border-gray-800">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} James Bentley. All rights reserved.
+            &copy; {new Date().getFullYear()} Jack Hammerton. All rights reserved.
           </p>
         </div>
       </div>
