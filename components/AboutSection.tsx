@@ -10,8 +10,7 @@ export default function AboutSection() {
             Currently pursuing my undergraduate degree in Business Analytics at Bradley University (expected May 2027), I am building a strong foundation in
             data science, machine learning, and software development while preparing for graduate study in data science and analytics. My work centers on developing
             data-driven solutions that turn complex information into actionable insights, from building predictive models and analytical dashboards to creating
-            scalable applications that support decision-making. I&apos;m especially interested in the intersection of machine learning, automation, and real-world
-            problem solving, where technical systems can be designed to improve efficiency, uncover patterns, and create meaningful impact.
+            scalable applications that support decision-making.
           </p>
         </div>
       </div>
