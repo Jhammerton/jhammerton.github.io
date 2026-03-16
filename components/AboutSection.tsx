@@ -6,14 +6,11 @@ export default function AboutSection() {
 
         <div className="bg-gray-800/50 rounded-xl p-8 border border-gray-700">
           <p className="text-gray-300 text-lg leading-relaxed">
-            I&apos;m a software engineer and machine learning engineer with a focus on distributed systems,
-            cloud infrastructure, and large-scale ML training. Currently pursuing my M.S. in Computer Science
-            at Georgia Institute of Technology (expected May 2026), I previously earned my B.S. in Data Science
-            from UC San Diego. My work centers on building scalable infrastructure that powers machine learning
-            at scale, from optimizing distributed training pipelines to designing cloud-native architectures
-            that handle thousands of microservices. I&apos;m particularly interested in the intersection of
-            high-performance computing and ML infrastructure, where system efficiency directly impacts model
-            training outcomes.
+            I&apos;m a data scientist, machine learning engineer, and software developer with a focus on predictive modeling, analytics, and intelligent systems.
+            Currently pursuing my undergraduate degree in Business Analytics at Bradley University (expected May 2027), I am building a strong foundation in
+            data science, machine learning, and software development while preparing for graduate study in data science and analytics. My work centers on developing
+            data-driven solutions that turn complex information into actionable insights, from building predictive models and analytical dashboards to creating
+            scalable applications that support decision-making.
           </p>
         </div>
       </div>

@@ -1,8 +1,8 @@
 const experiences = [
   {
-    title: "Software Engineer Intern",
-    company: "Salesforce",
-    team: "Core Infrastructure, Hyperforce Service Registry",
+    title: "Software Developer Intern",
+    company: "Interim Healthcare",
+    team: "",
     dates: "May 2025 – Aug 2025",
     bullets: [
       "Built an extensible validation platform for infrastructure configuration schemas using Temporal workflows and Java Spring Boot",
@@ -14,8 +14,8 @@ const experiences = [
     tags: ["Temporal", "Spring Boot", "Java", "GraphQL", "Kubernetes", "Postgres"],
   },
   {
-    title: "Machine Learning Engineer Intern",
-    company: "Matterport",
+    title: "Supply Chain Analyst Intern",
+    company: "Fastenal",
     dates: "Sept 2024 – Dec 2024",
     bullets: [
       "Built a lightweight PyTorch unfurnished room classifier using a ViT-DINO backbone, achieving 98% accuracy",
@@ -27,8 +27,8 @@ const experiences = [
     tags: ["PyTorch", "ViT-DINO", "AWS EC2", "Deep Lake", "Computer Vision"],
   },
   {
-    title: "Machine Learning Engineer Intern",
-    company: "San Diego Supercomputer Center",
+    title: "Team Lead",
+    company: "Club Car Wash",
     dates: "May 2023 – July 2024",
     bullets: [
       "Deployed and scaled PyTorch LLMs across diverse accelerator hardware using Kubernetes and SLURM",
