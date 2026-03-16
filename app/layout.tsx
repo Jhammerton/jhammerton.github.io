@@ -10,8 +10,8 @@ export const metadata: Metadata = {
     title: "Jack Hammerton | Data Scientist",
     description: "Data Scientist specializing in Machine Learning and Data Engineering",
     type: "website",
-    url: "https://jimmybentley.github.io",
-    siteName: "James Bentley Portfolio",
+    url: "https://jhammerton.github.io",
+    siteName: "Jack Hammerton Portfolio",
     images: [
       {
         url: "https://jimmybentley.github.io/VLSI_poster.png",
