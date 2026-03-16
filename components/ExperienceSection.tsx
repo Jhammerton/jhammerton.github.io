@@ -2,7 +2,7 @@ const experiences = [
   {
     title: "Software Developer Intern",
     company: "Interim Healthcare",
-    team: "Core Infrastructure, Hyperforce Service Registry",
+    team: "",
     dates: "May 2025 – Aug 2025",
     bullets: [
       "Built an extensible validation platform for infrastructure configuration schemas using Temporal workflows and Java Spring Boot",
@@ -27,8 +27,8 @@ const experiences = [
     tags: ["PyTorch", "ViT-DINO", "AWS EC2", "Deep Lake", "Computer Vision"],
   },
   {
-    title: "Machine Learning Engineer Intern",
-    company: "San Diego Supercomputer Center",
+    title: "Team Lead",
+    company: "Club Car Wash",
     dates: "May 2023 – July 2024",
     bullets: [
       "Deployed and scaled PyTorch LLMs across diverse accelerator hardware using Kubernetes and SLURM",
