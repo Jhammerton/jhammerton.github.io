@@ -5,11 +5,11 @@ const skillCategories = [
   },
   {
     name: "Frameworks & Libraries",
-    skills: ["PyTorch", "OpenCV", "scikit-learn", "OpenMP", "MPI", "libvirt"],
+    skills: ["pandas", "scikit-learn", "TensorFlow", "NumPy", "Node.js", "Django", "Tailwind CSS"]
   },
   {
-    name: "Cloud & Infrastructure",
-    skills: ["Kubernetes", "Docker", "Temporal", "Spring Boot", "gRPC", "GraphQL"],
+    name: "Deployment",
+    skills: ["Render", "Vercel", "Hostinger", "GitHub Pages", "DNS"]
   },
   {
     name: "Domains",
