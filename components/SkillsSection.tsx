@@ -1,7 +1,7 @@
 const skillCategories = [
   {
     name: "Languages",
-    skills: ["Python","SQL"],
+    skills: ["Python","SQL", "R"],
   },
   {
     name: "Frameworks & Libraries",
@@ -14,10 +14,11 @@ const skillCategories = [
   {
     name: "Domains",
     skills: [
-      "Distributed Systems",
-      "Cloud Computing",
-      "High Performance Computing",
-      "Reinforcement Learning",
+      "Machine Learning",
+      "Data Analytics",
+      "Automation",
+      "Web Development",
+      "Artificial Intelligence",
     ],
   },
 ];
