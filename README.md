@@ -78,7 +78,8 @@ The site is configured for static export (`output: 'export'` in `next.config.mjs
 │   └── ContactSection.tsx    # Contact information and links
 ├── public/
 │   ├── VLSI_poster.png  # VLSI project image
-│   └── timelapse.png    # Overcooked RL project image
+│   ├── agevision.png    # AgeVision project image
+│   └── timelapse.png    # Previous Overcooked RL project image
 ├── tailwind.config.ts   # Tailwind configuration
 ├── next.config.mjs      # Next.js configuration
 └── package.json         # Project dependencies
