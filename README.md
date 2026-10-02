@@ -1,10 +1,10 @@
 # Jack Hammerton - Portfolio Website
 
-A modern, responsive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS.
+A modern, responsive portfolio website built with Next.js 16, TypeScript, and Tailwind CSS.
 
 ## Tech Stack
 
-- **Framework:** Next.js 14 (App Router)
+- **Framework:** Next.js 16 (App Router)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
 - **Deployment:** Static export for GitHub Pages / Vercel
@@ -22,15 +22,15 @@ A modern, responsive portfolio website built with Next.js 14, TypeScript, and Ta
 
 ### Prerequisites
 
-- Node.js 18.17 or later
+- Node.js 20.9 or later
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/jimmybentley/jimmybentley.github.io.git
-cd jimmybentley.github.io
+git clone https://github.com/Jhammerton/jhammerton.github.io.git
+cd jhammerton.github.io
 ```
 
 2. Install dependencies:
@@ -78,7 +78,8 @@ The site is configured for static export (`output: 'export'` in `next.config.mjs
 │   └── ContactSection.tsx    # Contact information and links
 ├── public/
 │   ├── VLSI_poster.png  # VLSI project image
-│   └── timelapse.png    # Overcooked RL project image
+│   ├── agevision.png    # AgeVision project image
+│   └── timelapse.png    # Previous Overcooked RL project image
 ├── tailwind.config.ts   # Tailwind configuration
 ├── next.config.mjs      # Next.js configuration
 └── package.json         # Project dependencies

@@ -14,17 +14,20 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Multi-Agent Reinforcement Learning in Overcooked",
+    title: "AgeVision — Apparent Age Estimation",
     description:
-      "Implemented cooperative agents in the Overcooked-AI environment using multi-agent RL approaches.",
+      "End-to-end computer vision application that estimates apparent age from an uploaded portrait or live camera photo.",
     bullets: [
-      "Implemented MAPPO-style multi-agent reinforcement learning with centralized training and decentralized execution",
-      "Evaluated policy performance across complex layouts under sparse rewards",
-      "Analyzed scalability and convergence challenges in multi-agent collaboration",
-      "Integrated Intrinsic Curiosity Module for exploration in sparse reward environments",
+      "Fine-tuned an ImageNet-pretrained EfficientNet-B0 with age-weighted Huber loss, stronger augmentation, learning-rate scheduling, and early stopping",
+      "Reduced production-pipeline test MAE from 4.956 to 4.664 years and reported performance across age and demographic slices",
+      "Built consistent training and inference preprocessing with YuNet face detection and rejection of ambiguous multi-face inputs",
+      "Deployed a responsive FastAPI application with file upload, camera capture, Docker, Render, GitHub Actions, and browser-level tests",
     ],
-    tags: ["PyTorch", "MAPPO", "Multi-Agent RL", "Python"],
-    image: "/timelapse.png",
+    tags: ["PyTorch", "EfficientNet", "Computer Vision", "FastAPI", "Docker", "Python"],
+    image: "/agevision.png",
+    websiteLink: "https://agevision.onrender.com",
+    codeLink: "https://github.com/Jhammerton/AgeVision",
+    reportLink: "https://github.com/Jhammerton/AgeVision/blob/main/MODEL_CARD.md",
   },
   {
     title: "Graph Batching Method for Integrated Circuits",

@@ -1,23 +1,24 @@
 const skillCategories = [
   {
     name: "Languages",
-    skills: ["Python","SQL"],
+    skills: ["Python","SQL", "R"],
   },
   {
     name: "Frameworks & Libraries",
-    skills: ["PyTorch", "OpenCV", "scikit-learn", "OpenMP", "MPI", "libvirt"],
+    skills: ["pandas", "scikit-learn", "TensorFlow", "NumPy", "Node.js", "Django", "Tailwind CSS"]
   },
   {
-    name: "Cloud & Infrastructure",
-    skills: ["Kubernetes", "Docker", "Temporal", "Spring Boot", "gRPC", "GraphQL"],
+    name: "Deployment",
+    skills: ["Render", "Vercel", "Hostinger", "GitHub Pages", "DNS"]
   },
   {
     name: "Domains",
     skills: [
-      "Distributed Systems",
-      "Cloud Computing",
-      "High Performance Computing",
-      "Reinforcement Learning",
+      "Machine Learning",
+      "Data Analytics",
+      "Automation",
+      "Web Development",
+      "Artificial Intelligence",
     ],
   },
 ];

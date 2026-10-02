@@ -10,14 +10,14 @@ export const metadata: Metadata = {
     title: "Jack Hammerton | Data Scientist",
     description: "Data Scientist specializing in Machine Learning and Data Engineering",
     type: "website",
-    url: "https://jimmybentley.github.io",
-    siteName: "James Bentley Portfolio",
+    url: "https://jhammerton.github.io",
+    siteName: "Jack Hammerton Portfolio",
     images: [
       {
-        url: "https://jimmybentley.github.io/VLSI_poster.png",
+        url: "https://jhammerton.github.io/VLSI_poster.png",
         width: 1200,
         height: 630,
-        alt: "James Bentley - Software Engineer Portfolio",
+        alt: "Jack Hammerton - Data Scientist Portfolio",
       },
     ],
   },
