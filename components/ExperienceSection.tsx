@@ -3,7 +3,7 @@ const experiences = [
     title: "Business Intelligence Developer Intern",
     company: "Pointcore",
     location: "Peoria, IL",
-    dates: "Summer 2026",
+    dates: "April 2026 – Present",
     bullets: [
       "Built and evaluated AI/ML prototypes for reporting workflows, including ServiceNow ticket triage and workload forecasting use cases",
       "Analyzed team capacity, support, and project workload data to support more equitable assignment and projected start-date planning",
@@ -15,7 +15,7 @@ const experiences = [
     title: "Supply Chain Associate Intern",
     company: "Fastenal",
     location: "Peoria, IL",
-    dates: "October 2025 – Present",
+    dates: "October 2025 – April 2026",
     bullets: [
       "Monitored and analyzed inventory levels to maintain stock availability and reduce supply disruptions",
       "Improved order-picking processes to increase efficiency and supported receiving, order fulfillment, and local customer deliveries",

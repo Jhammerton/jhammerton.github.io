@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Jack Hammerton | Data Scientist",
-  description: "Data Scientist specializing in Machine Learning and Data Engineering",
-  keywords: ["Data Scientist", "Machine Learning", "Data Engineering", "Cloud Infrastructure"],
+  title: "Jack Hammerton | Aspiring Data Scientist",
+  description: "Business Analytics student at Bradley University building experience in analytics, forecasting, and machine learning through internships and projects.",
+  keywords: ["Business Analytics", "Aspiring Data Scientist", "Machine Learning", "Forecasting"],
   authors: [{ name: "Jack Hammerton" }],
   openGraph: {
-    title: "Jack Hammerton | Data Scientist",
-    description: "Data Scientist specializing in Machine Learning and Data Engineering",
+    title: "Jack Hammerton | Aspiring Data Scientist",
+    description: "Business Analytics student at Bradley University building experience in analytics, forecasting, and machine learning through internships and projects.",
     type: "website",
     url: "https://jhammerton.github.io",
     siteName: "Jack Hammerton Portfolio",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
         url: "https://jhammerton.github.io/VLSI_poster.png",
         width: 1200,
         height: 630,
-        alt: "Jack Hammerton - Data Scientist Portfolio",
+        alt: "Jack Hammerton - Aspiring Data Scientist Portfolio",
       },
     ],
   },

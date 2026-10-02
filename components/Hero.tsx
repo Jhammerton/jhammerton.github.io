@@ -28,7 +28,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-xl sm:text-2xl text-blue-400 font-medium">
-            Data Scientist | Machine Learning & Predictive Modeling
+            Business Analytics Student | Aspiring Data Scientist
           </p>
 
           <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
