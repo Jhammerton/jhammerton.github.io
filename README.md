@@ -91,6 +91,15 @@ The site is configured for static export (`output: 'export'` in `next.config.mjs
 - **Content:** Update the data arrays in each component file
 - **Fonts:** Modify the Inter font import in `app/layout.tsx`
 
+### Adding Projects
+
+Add an entry to the `projects` array in `components/ProjectsSection.tsx`, using AgeVision as the template. Keep the shared card markup and styling so future projects retain the current format: image or video, title, description, achievement bullets, skill tags, and link buttons.
+
+- Required fields: `title`, `description`, `bullets`, and `tags`.
+- Optional fields: `image`, `videoLink`, `websiteLink`, `codeLink`, and `reportLink`. Omit unused fields; video takes precedence over an image.
+- Put images in `public/` and reference them with a path such as `/my-project.png`.
+- The grid displays one column on smaller screens and two on large screens as projects are added.
+
 ## License
 
 MIT License

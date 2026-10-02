@@ -12,6 +12,7 @@ interface Project {
   videoLink?: string;
 }
 
+// Add future projects here using the Project fields; the shared cards below keep their formatting.
 const projects: Project[] = [
   {
     title: "AgeVision — Apparent Age Estimation",
@@ -28,69 +29,6 @@ const projects: Project[] = [
     websiteLink: "https://agevision.onrender.com",
     codeLink: "https://github.com/Jhammerton/AgeVision",
     reportLink: "https://github.com/Jhammerton/AgeVision/blob/main/MODEL_CARD.md",
-  },
-  {
-    title: "Graph Batching Method for Integrated Circuits",
-    description:
-      "Novel batching strategy for training GNNs on large-scale VLSI circuit graphs while maintaining model accuracy.",
-    bullets: [
-      "Developed Walking-GCN batching strategy to reduce RAM overhead for training on circuit graphs with hundreds of millions of nodes",
-      "Improved upon Cluster-GCN's random sampling method for circuit congestion prediction",
-      "Maintained model accuracy while enabling training on hardware-constrained systems",
-      "Benchmarked performance against state-of-the-art graph batching methods",
-    ],
-    tags: ["PyTorch", "GNN", "Graph Neural Networks", "VLSI", "Python"],
-    image: "/VLSI_poster.png",
-    reportLink: "https://drive.google.com/file/d/1ouMfxmZm9oltgq5J7yZiXt1gXl7XL1-v/view?usp=sharing",
-    codeLink: "https://github.com/UCSD-Qualcomm-B07-Group-2/Biased-Batch-Learning-Strategy",
-  },
-  {
-    title: "Autonomous Racing with AWS DeepRacer",
-    description:
-      "PPO-based autonomous racing agent that learns to navigate tracks using stereo camera images and LiDAR.",
-    bullets: [
-      "Built PPO-based racing agent for AWS DeepRacer simulator achieving consistent lap completion across tracks of varying complexity",
-      "Designed dual-encoder neural network with separate convolutional pathways for visual and LiDAR feature extraction",
-      "Implemented two-phase transfer learning with baseline training on simple tracks followed by fine-tuning on complex environments",
-    ],
-    tags: ["PyTorch", "PPO", "Computer Vision", "LiDAR", "AWS DeepRacer", "Transfer Learning"],
-    videoLink: "https://github.com/user-attachments/assets/8ee6346d-b066-4251-8fec-091dcdc8dc4e",
-  },
-  {
-    title: "3D Reconstruction from Images",
-    description:
-      "Multi-view 3D reconstruction using photometric stereo and epipolar geometry for depth estimation and feature matching.",
-    bullets: [
-      "Estimated surface depth maps from external light sources using photometric stereo with Horn integration technique to predict meshes of human faces",
-      "Implemented 8-point algorithm to derive epipolar geometry and match image features across views",
-      "Maintained object point continuity and preserved perspective across multiple camera views",
-    ],
-    tags: ["Computer Vision", "Python", "OpenCV", "Photometric Stereo", "Epipolar Geometry"],
-    image: "/epipolar_geometry.png",  // Add your image to public/ folder as epipolar_geometry.png
-  },
-  {
-    title: "Large-Scale ETL of Amazon Datasets",
-    description:
-      "Distributed cloud computing infrastructure for processing and analyzing massive e-commerce datasets.",
-    bullets: [
-      "Created distributed computing infrastructure using Dask, achieving 4× speedup on 45GB of data",
-      "Built batch processing pipeline with PySpark SQL on Kubernetes cluster",
-      "Trained decision tree regression model using Word2Vec embeddings for item recommendation",
-      "Optimized data processing and validation algorithms for cost efficiency",
-    ],
-    tags: ["Dask", "PySpark", "Kubernetes", "AWS EC2", "Python"],
-  },
-  {
-    title: "Distributed MapReduce Framework",
-    description:
-      "A from-scratch distributed MapReduce system in C++ using asynchronous gRPC and master-worker architecture for parallel job execution.",
-    bullets: [
-      "Built asynchronous gRPC client using CompletionQueues and BaseCall inheritance hierarchy for per-RPC state management",
-      "Implemented master-worker architecture with map-task scheduling, reduce-task coordination, and fault-tolerant task reassignment",
-      "Designed concurrency-safe work queue and multithreaded worker execution pipeline for parallel shard processing",
-      "Integrated Protobuf for type-safe RPC communication with pluggable Map/Reduce interfaces",
-    ],
-    tags: ["C++", "gRPC", "Multithreading", "Protobuf", "Linux"],
   },
 ];
 
