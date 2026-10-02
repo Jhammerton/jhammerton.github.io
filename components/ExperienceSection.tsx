@@ -1,41 +1,48 @@
 const experiences = [
   {
-    title: "Software Developer Intern",
-    company: "Interim Healthcare",
-    team: "",
-    dates: "May 2025 – Aug 2025",
+    title: "Business Intelligence Developer Intern",
+    company: "Pointcore",
+    location: "Peoria, IL",
+    dates: "Summer 2026",
     bullets: [
-      "Built an extensible validation platform for infrastructure configuration schemas using Temporal workflows and Java Spring Boot",
-      "Audited 8k+ microservices weekly to detect configuration drift and block invalid deployments",
-      "Reduced workflow latency by passing prebuilt service definition objects instead of constructing large payloads at runtime",
-      "Created and scaled GraphQL queries with pagination and rate limiting to protect the backing Postgres database from overload",
-      "Deployed and validated builds in Kubernetes dev clusters with end-to-end workflow tests",
+      "Built and evaluated AI/ML prototypes for reporting workflows, including ServiceNow ticket triage and workload forecasting use cases",
+      "Analyzed team capacity, support, and project workload data to support more equitable assignment and projected start-date planning",
+      "Presented practical AI and Copilot use cases to reporting leadership and developed automation concepts using Power Automate and Copilot Studio",
     ],
-    tags: ["Temporal", "Spring Boot", "Java", "GraphQL", "Kubernetes", "Postgres"],
+    tags: ["AI/ML", "ServiceNow", "Workload Forecasting", "Power Automate", "Copilot Studio"],
   },
   {
-    title: "Supply Chain Analyst Intern",
+    title: "Supply Chain Associate Intern",
     company: "Fastenal",
-    dates: "Sept 2024 – Dec 2024",
+    location: "Peoria, IL",
+    dates: "October 2025 – Present",
     bullets: [
-      "Built a lightweight PyTorch unfurnished room classifier using a ViT-DINO backbone, achieving 98% accuracy",
-      "Supported scalable data generation for generative AI-based furniture removal",
-      "Built a data pipeline to preprocess and auto-label 20k+ panoramas with semantic segmentation masks",
-      "Integrated multi-scan predictions and restored regression tests, reducing training time by 10× on AWS EC2",
-      "Used Deep Lake for large-scale dataset management, ingestion, streaming, and reproducible experiments",
+      "Monitored and analyzed inventory levels to maintain stock availability and reduce supply disruptions",
+      "Improved order-picking processes to increase efficiency and supported receiving, order fulfillment, and local customer deliveries",
     ],
-    tags: ["PyTorch", "ViT-DINO", "AWS EC2", "Deep Lake", "Computer Vision"],
+    tags: ["Inventory Analysis", "Process Improvement", "Order Fulfillment", "Supply Chain"],
+  },
+  {
+    title: "Software Developer Intern",
+    company: "Interim HealthCare",
+    location: "Peoria, IL",
+    dates: "October 2025 – January 2026",
+    bullets: [
+      "Helped rebuild website backend components to improve organization and access to company data",
+      "Assisted in building a forecasting model to estimate monthly revenue and completed custom development tasks to improve website efficiency",
+    ],
+    tags: ["Backend Development", "Revenue Forecasting", "Data Organization"],
   },
   {
     title: "Team Lead",
     company: "Club Car Wash",
-    dates: "May 2023 – July 2024",
+    location: "Peoria, IL",
+    dates: "July 2024 – October 2025",
     bullets: [
-      "Deployed and scaled PyTorch LLMs across diverse accelerator hardware using Kubernetes and SLURM",
-      "Parallelized training and optimized resource utilization with MPI, achieving 64× speedup with 64 processors",
-      "Focused on distributed training and efficient use of HPC infrastructure",
+      "Supervised daily operational workflows, trained and onboarded 4+ employees, and delegated work to maintain service quality and throughput",
+      "Troubleshot equipment and operational issues to minimize downtime and keep team processes moving efficiently",
     ],
-    tags: ["PyTorch", "Kubernetes", "SLURM", "MPI", "HPC", "LLMs"],
+    tags: ["Team Leadership", "Employee Training", "Operations", "Troubleshooting"],
   },
 ];
 
@@ -55,9 +62,7 @@ export default function ExperienceSection() {
                 <div>
                   <h3 className="text-xl font-semibold text-white">{exp.title}</h3>
                   <p className="text-blue-400 font-medium">{exp.company}</p>
-                  {exp.team && (
-                    <p className="text-gray-400 text-sm">{exp.team}</p>
-                  )}
+                  <p className="text-gray-400 text-sm">{exp.location}</p>
                 </div>
                 <span className="text-gray-400 text-sm mt-2 sm:mt-0">{exp.dates}</span>
               </div>
